@@ -2,7 +2,28 @@ h3 {
    text-align: center;
    color: blue;
 }
-
+.con {
+   width: 50%;
+   position: relative;
+}
 .img {
    width: 100%;
+}
+
+.over {
+   position: absolute;
+   width: 0;
+   height: 100%;
+   left: 50%;
+   right: 0;
+   bottom: 0;
+   transition: .5s ease;
+   overflow: hidden;
+   background-color: #00f;
+   opacity: .7;
+}
+
+.con:hover .over {
+   width: 100%;
+   left: 0;
 }
