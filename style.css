@@ -5,9 +5,13 @@ h3 {
 .con {
    width: 50%;
    position: relative;
+   margin-left: auto;
+   margin-right: auto;
 }
 .img {
    width: 100%;
+   border: 1px solid;
+   border-radius: 5px;
 }
 
 .over {
